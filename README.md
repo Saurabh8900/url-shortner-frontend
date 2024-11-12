@@ -70,7 +70,7 @@ Convert conplex and long urls into a simple one that makes it easy to share and 
 
 ## Setup
 
--  Clone the repository: `git clone https://github.com/Naitik2408/Url-Shortner.git`
+-  Clone the repository: 
 
 - Create a file with name `.env` in  root directory and add following content into it :  `VITE_APP_API_URL` = "short-url -api link"
 
