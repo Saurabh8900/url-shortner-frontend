@@ -116,7 +116,7 @@ function Analytics() {
                             <img src={img3} alt="" className="w-full" />
                         </div>
                         <div className="w-full h-[20%] flex justify-center items-end gap-8">
-                            <div className="dark:text-gray-500">Created By - Naitik Kumar</div>
+                            <div className="dark:text-gray-500">Created By - Saurabh Kumar Singh</div>
                             <div className="flex gap-4 text-gray-800 dark:text-gray-500 text-xl">
                                 <div className="cursor-pointer"><AiOutlineLinkedin /></div>
                                 <div className="cursor-pointer"><FaXTwitter /></div>

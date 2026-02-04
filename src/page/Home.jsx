@@ -112,8 +112,8 @@ function Home() {
                 <div className="w-[80%] rounded-lg overflow-hidden p-6">
                     <div  className={`text-3xl font-bold text-gray-700 mb-12 dark:text-purple-300 hidden md:block ${isLogedIn? 'block': 'hidden'}`}>Welcome, <span className='text-orange-500 text-4xl font-extrabold'>{currentUser.name? currentUser.name: ""}</span> to dashboard</div>
                     <div className="w-full text-center text-4xl font-extrabold text-purple-500 mb-9 dark:text-purple-300 ">More Then Free Link Shortner</div>
-                    <input type="text" className="p-3 w-full rounded-md my-3 dark:bg-black dark:text-white bg-orange-300" id="" placeholder="Node js video link..**" value={urlTitle} onChange={e => setUrlTitle(e.target.value)} /><br />
-                    <input type="text" className="p-3 w-full rounded-md my-3 dark:bg-black dark:text-white" id="" placeholder="https://example.com" value={url} onChange={e => setUrl(e.target.value)} /><br />
+                    <input type="text" className="p-3 w-full rounded-md my-3 dark:bg-black dark:text-white bg-orange-200" id="" placeholder="Enter title" value={urlTitle} onChange={e => setUrlTitle(e.target.value)} /><br />
+                    <input type="text" className="p-3 w-full rounded-md my-3 dark:bg-black dark:text-white" id="" placeholder="Enter your URL" value={url} onChange={e => setUrl(e.target.value)} /><br />
                     
                     <div className={`relative group ${showUrl}`}>
                         <input type="text" className="p-3 w-full rounded-md my-3 cursor-pointer bg-blue-300" value={shortenedURL} placeholder="http://example.com/52ksf8" onClick={handleClick} />
